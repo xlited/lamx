@@ -1,10 +1,12 @@
-# Very short description of the package
+# Build Laravel apps with </> htmx
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/xlited/lamx.svg?style=flat-square)](https://packagist.org/packages/xlited/lamx)
 [![Total Downloads](https://img.shields.io/packagist/dt/xlited/lamx.svg?style=flat-square)](https://packagist.org/packages/xlited/lamx)
 ![GitHub Actions](https://github.com/xlited/lamx/actions/workflows/main.yml/badge.svg)
 
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
+**Lamx** is a collection of feature-rich components for accelerated Laravel development. Supercharge your next Laravel apps with HTMX integration. Effortlessly create dynamic, interactive experiences for users, accelerating development and enhancing UX.
+
+
 
 ## Installation
 
@@ -16,9 +18,7 @@ composer require xlited/lamx
 
 ## Usage
 
-```php
-// Usage description here
-```
+See a demo TODO app here: https://github.com/icaliman/laravel-htmx
 
 ### Testing
 

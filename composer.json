@@ -1,6 +1,6 @@
 {
   "name": "xlited/lamx",
-  "description": "Build apps in Laravel + htmx",
+  "description": "Build Laravel apps with </> htmx",
   "keywords": [
     "xlited",
     "lamx",

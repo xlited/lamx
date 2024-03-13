@@ -3,7 +3,9 @@
   "description": "Build apps in Laravel + htmx",
   "keywords": [
     "xlited",
-    "lamx"
+    "lamx",
+    "laravel",
+    "htmx"
   ],
   "homepage": "https://github.com/xlited/lamx",
   "license": "MIT",
@@ -16,11 +18,11 @@
     }
   ],
   "require": {
-    "php": "^7.4|^8.1",
+    "php": "^8.1",
     "illuminate/support": "^11.0|^10.0"
   },
   "require-dev": {
-    "orchestra/testbench": "^9.0",
+    "orchestra/testbench": "^9.0|^8.0",
     "phpunit/phpunit": "^11.0"
   },
   "autoload": {

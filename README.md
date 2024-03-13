@@ -1,4 +1,4 @@
-# Build Laravel apps with </> htmx
+# Lamx - Build Laravel apps with </> htmx
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/xlited/lamx.svg?style=flat-square)](https://packagist.org/packages/xlited/lamx)
 [![Total Downloads](https://img.shields.io/packagist/dt/xlited/lamx.svg?style=flat-square)](https://packagist.org/packages/xlited/lamx)

@@ -2,7 +2,9 @@
 
 namespace Xlited\Lamx;
 
+use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
+use Xlited\Lamx\Providers\BladeDirectives;
 
 class LamxServiceProvider extends ServiceProvider
 {
@@ -15,13 +17,15 @@ class LamxServiceProvider extends ServiceProvider
          * Optional methods to load your package assets
          */
         // $this->loadTranslationsFrom(__DIR__.'/../resources/lang', 'lamx');
-        // $this->loadViewsFrom(__DIR__.'/../resources/views', 'lamx');
+        // $this->loadViewsFrom(__DIR__ . '/../resources/views', 'lamx');
         // $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
         // $this->loadRoutesFrom(__DIR__.'/routes.php');
 
+        BladeDirectives::register();
+
         if ($this->app->runningInConsole()) {
             $this->publishes([
-                __DIR__.'/../config/config.php' => config_path('lamx.php'),
+                __DIR__ . '/../config/config.php' => config_path('lamx.php'),
             ], 'config');
 
             // Publishing the views.
@@ -50,7 +54,7 @@ class LamxServiceProvider extends ServiceProvider
     public function register()
     {
         // Automatically apply the package configuration
-        $this->mergeConfigFrom(__DIR__.'/../config/config.php', 'lamx');
+        $this->mergeConfigFrom(__DIR__ . '/../config/config.php', 'lamx');
 
         // Register the main class to use with the facade
         $this->app->singleton('lamx', function () {

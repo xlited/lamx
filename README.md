@@ -1,5 +1,7 @@
 # Lamx - Build Laravel apps with </> htmx
 
+## WORK IN PROGRESS
+
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/xlited/lamx.svg?style=flat-square)](https://packagist.org/packages/xlited/lamx)
 [![Total Downloads](https://img.shields.io/packagist/dt/xlited/lamx.svg?style=flat-square)](https://packagist.org/packages/xlited/lamx)
 ![GitHub Actions](https://github.com/xlited/lamx/actions/workflows/main.yml/badge.svg)
